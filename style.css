@@ -274,7 +274,7 @@ footer.container-fluid {
 
 	}
 	.drop-btn{
-        width: 90%;
+        width: 95%;
     }
     .icon-section p{
         font-size:xx-small;
@@ -301,5 +301,8 @@ footer.container-fluid {
     }
     .header img.img0{
         width: 30%;
+    }
+    .container3{
+        margin-left: 1rem;
     }
 }
