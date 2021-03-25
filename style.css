@@ -164,6 +164,22 @@ div.imge img{
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+div.imge  a{
+    margin-left: 1rem;
+    position: relative;
+    padding-top: 1rem;
+    float: right;
+    font-size: x-small;
+
+}
+div.imge p{
+    margin-left: 3rem;
+    margin-top: 1rem;
+    float: right;
+    font-size: medium;
+    margin-right: 2rem;
+
+}
 div.btns{
     margin-top: 6px;
     width: 45%;
