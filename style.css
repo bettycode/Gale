@@ -138,6 +138,51 @@ div.icon-lists{
     width: 100%;
     flex: 100%;
 }
+.container3 h3{
+    margin-top: 2rem;
+    font-weight: 500;
+}
+.container3{
+    margin-top: 37em;
+    margin-left: 3rem;
+    display: block;
+    height: 100%;
+   
+}
+.container3 h3::after{
+    content: "";
+    width: 80px;
+    height: 2px;
+    display: flex;
+    background: #F97F51;
+    margin-bottom: 1rem;
+    margin-top: 8px;
+}
+div.imge img{
+    height: 30px;
+    margin-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+div.btns{
+    margin-top: 6px;
+    width: 45%;
+}
+.btns button{
+    border: 1px solid darkblue;
+    color: darkblue;
+    margin-bottom: 1rem;
+    padding: 5px;
+    border-radius: 3px;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+footer.container-fluid {
+  
+    border-top: 1px solid white;
+}
+
 
 /* @media */
 
