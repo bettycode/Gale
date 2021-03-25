@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    font-family:'open Sans';
+}
+.header{
+    background:
+     url(img/hero-banner.jpeg)no-repeat center center fixed;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    
+}
+.header img{
+    width: 15%;
+}
+.drop-btn{
+    width: 400px;
+    height: 40px;
+    background: white;
+    border-radius: 5px;
+}
+span.btn{
+    width: 15%;
+    height: 62%;
+    background: gainsboro;
+    color: black;
+    padding: 5px;
+    border-radius: 2px;
+    font-weight: 500;
+    float: left;
+    padding-top: 10px;
+}
+.btn i{
+    float: right;
+}
+input{
+    padding: 5px;
+    border: none;
+    width: 70%;
+    padding-top: 12px;
+    margin-right: 6px;
+    height: 50%;
+    vertical-align: middle;
+    padding-bottom: 7px;
+}
+input:focus{
+    outline: none;
+}
+.header p{
+    color: white;
+    margin-top: 10px;
+}
+.container{
+    margin-left: 3%;
+    margin-top: 3%;
+    color: white;
+}
+.container h2{
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+i{
+    color: black;
+}
+.co-branding{
+    width: 10%;
+    float: right;
+    margin-right: 50px;
+}
+.co-branding img{
+    width: 100%;
+    background: white;
+    margin-top: 30%;
+}
+/* .icon-section{
+    height: 60px;
+} */
+.fa-icons{
+    height: 100%;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    float: right;
+}
+.fa-icons a i{
+    width: 70px;
+    text-align: center;
+}
+div.icon-lists{
+    float: left;
+    padding: 5px;
+}
+/* card section */
+.container2{
+    background: gainsboro;
+    padding-top: 2rem;
+    float: left;
+}
+.card-box{
+    position: relative;
+    top: 10%;
+    left: 5%;
+    transform: translate(-10%,-5%);
+    padding: 20px;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    width: 45%;
+    margin-top: 2rem;
+    float: left;
+    margin-left: 3rem;
+}
+/* .card-img{
+    width:100% ;
+    flex: 100%;
+} */
+.card-img img{
+    max-width: 100%;
+}
+.card-content{
+  margin-left: 15px;
+  width: 100%;
+    flex: 100%;
+   
+}
+.card-content h3{
+    color: orangered;
+    padding-bottom: 2px;
+    width: 100%;
+    flex: 100%;
+     
+  }
+.card-content p.card-p{
+    padding-top: 1rem;
+    font-size: 14px;
+    width: 100%;
+    flex: 100%;
+}
+
+/* @media */
+
+@media screen and (max-width: 1024px){
+	.card-box{
+		width:40%;
+        font-size: small;
+	}
+    .header img.img0{
+        width: 20%;
+    }
+    .container {
+        margin-top: 10%;
+      
+    }
+    .card-img img{
+        height: 80%;
+       
+    }
+    div.card-content h3{
+         font-size:80% ;
+    }
+   
+}
+
+@media screen and (max-width: 786px){
+	.card-box{
+		width: 40%;
+        display:block;
+        
+    padding-right: 29px;
+
+      
+	}
+	div.card-content{
+		font-size: 16px;
+		height: 100%;
+	} 
+    .header img.img0{
+        width: 30%;
+    }
+    .container {
+        margin-top: 15%;
+      
+    }
+    .card-img img{
+        height: 60%;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 568px){
+	.card-box{
+		width: 90%;
+        display: flex;
+	}
+	.wrapper .header{
+		font-size: 14px;
+	}
+    .icon-section p{
+       font-size: smaller;
+        
+    }
+}
+
+@media screen and (max-width:420px){
+    .card-box{
+		width: 80%;
+        display: block;
+        
+    padding-right: 35px;
+
+	}
+	.drop-btn{
+        width: 90%;
+    }
+    .icon-section p{
+        font-size:xx-small;
+        padding:3px;
+         
+     }
+     div.icon-lists{
+        padding: 2px;
+    }
+    .fa-icons{
+        height: 100%;
+        margin-top: 1rem;
+        margin-right: 3px;
+      
+    }
+    .container {
+        margin-top: 25%;
+      
+    }
+    .co-branding {
+        width: 20%;
+        
+        margin-right: 50px;
+    }
+    .header img.img0{
+        width: 30%;
+    }
+}
